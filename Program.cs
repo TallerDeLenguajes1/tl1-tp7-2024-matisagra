@@ -12,6 +12,7 @@ do
     Console.WriteLine("2. Restar");
     Console.WriteLine("3. Multiplicar");
     Console.WriteLine("4. Dividir");
+    Console.WriteLine("5. Limpiar");
     Console.WriteLine("0. Salir");
 
 
@@ -45,12 +46,17 @@ do
             calcu.Dividir(valor1);
             break;
 
-    }
+        case "5":
+            calcu.Limpiar();
+            break;
 
+    }
     double resultado = calcu.dato;
+    Console.WriteLine($"El resultado es: {resultado}");
+
 
 } while (opcion != "0");
-;
+
 
 
 

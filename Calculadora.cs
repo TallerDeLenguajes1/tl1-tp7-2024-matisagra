@@ -11,25 +11,30 @@ public class Calculadora
     public void Sumar(double termino)
     {
         dato += termino;
-        Console.WriteLine($"{dato}");
+
     }
 
     public void Restar(double termino)
     {
         dato -= termino;
-        Console.WriteLine($"{dato}");
+
     }
 
     public void Multiplicar(double termino)
     {
         dato *= termino;
-        Console.WriteLine($"{dato}");
+
     }
 
     public void Dividir(double termino)
     {
         dato = dato / termino;
-        Console.WriteLine($"{dato}");
+
+    }
+
+    public void Limpiar()
+    {
+        dato = 0;
     }
 
 
